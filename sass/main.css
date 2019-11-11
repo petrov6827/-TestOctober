@@ -1,0 +1,292 @@
+body {
+  font-family: "PT Sans Caption";
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #000;
+}
+
+header .header {
+  width: 1410px;
+  background: #000;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: "PT Sans Caption";
+}
+
+.phone {
+  position: relative;
+  margin: 15px 20px 7px 40px;
+}
+
+.phone a {
+  color: white;
+  display: block;
+}
+
+.phone::before {
+  display: block;
+  position: absolute;
+  content: "";
+  background-image: url("img/tel.svg");
+  background: red;
+  width: 20px;
+  height: 20px;
+  left: -20px;
+  top: 0;
+  background-position-x: 100px;
+  background-position-y: 10px;
+}
+
+.tel_code,
+.tel_number {
+  display: none;
+}
+
+header.header {
+  background-color: #000;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.adress {
+  position: relative;
+  color: #fff;
+  margin-left: 300px;
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.adress p {
+  display: inline;
+}
+
+.adress::before {
+  display: block;
+  position: absolute;
+  content: "";
+  background-image: url("img/navi.svg");
+  background: #7e7a7a;
+  width: 20px;
+  height: 20px;
+  left: -25px;
+  top: 0;
+}
+
+p.tel_code {
+  color: #fff;
+  display: inline;
+}
+
+p.tel_number {
+  color: #bf9037;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #000;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: "PT Sans Caption";
+}
+
+.logo {
+  width: 285px;
+  height: 42px;
+  background: #000;
+  margin: 16px 0px 16px 25px;
+}
+
+.phone_link {
+  color: white;
+  display: block;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.order {
+  margin: 30px;
+}
+
+a.order_button {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 31px;
+  padding: 10px 75px;
+}
+
+@media (min-width: 1920px) {
+  .offer {
+    background: #1f090e;
+  }
+}
+
+.offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #1f090e;
+  height: 780px;
+}
+
+.offer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1410px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about_text {
+  text-transform: uppercase;
+  font-family: bold;
+  font-size: 30px;
+  color: #fff;
+  font-family: "PT Sans Caption";
+}
+
+.about {
+  position: relative;
+  color: #000;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+p.about_text_yellow {
+  color: #bf9037;
+  font-size: 90px;
+  line-height: 100px;
+  margin: 0 0 0 47px;
+}
+
+.offer__partner {
+  width: 290px;
+  margin-top: 135px;
+}
+
+.partner__name {
+  position: absolute;
+  width: 50%;
+  top: 195px;
+  color: #fff;
+  border-bottom: 1px solid #bf9037;
+}
+
+.partner__about {
+  color: #bf9037;
+  line-height: 25px;
+}
+
+.offer__list {
+  display: block;
+  position: relative;
+  font-size: 30px;
+  line-height: 40px;
+  color: #bf9037;
+  text-transform: none;
+  margin-left: 0;
+  margin-bottom: 90px;
+}
+
+.offer__list li {
+  margin-bottom: 20px;
+}
+
+.offer__list::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 247px;
+  border-left: 1px solid #bf9037;
+  top: 19px;
+  left: 18px;
+}
+
+.offer__order {
+  position: relative;
+  color: #000;
+  background: #bf9037;
+  font-size: 25px;
+  border: 1px solid #000;
+  border-radius: 55px;
+  padding: 20px 75px;
+  text-transform: uppercase;
+  margin: 130px;
+  font-weight: 300;
+}
+
+.offer__order::before {
+  content: "";
+  position: absolute;
+  width: 125px;
+  height: 1px;
+  border-bottom: 1px solid #bf9037;
+  top: 33px;
+  left: -109px;
+}
+
+.man_image {
+  position: absolute;
+  left: 50%;
+  top: 108px;
+}
+
+.exp__container {
+  width: 1410px;
+  margin: 0 auto;
+}
+
+.exp__slogan {
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 80px;
+  margin-left: 15px;
+}
+
+.exp__name {
+  position: relative;
+}
+
+.exp__exp {
+  font-size: 100px;
+  line-height: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #bf9037;
+  padding: 10px;
+}
+
+.exp__about {
+  font-size: 25px;
+  line-height: 36px;
+  color: #fff;
+  background: #7d7d7d;
+  padding: 20px 30px;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+/*# sourceMappingURL=main.css.map */
